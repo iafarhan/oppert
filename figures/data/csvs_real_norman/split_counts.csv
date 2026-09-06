@@ -1,0 +1,4 @@
+dataset,split_category,n
+Norman,neither gene observed,36
+Norman,exactly one gene observed,42
+Norman,"both genes observed, pair held out",84

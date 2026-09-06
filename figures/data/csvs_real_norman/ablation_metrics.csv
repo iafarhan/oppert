@@ -1,0 +1,8 @@
+ablation,metric,value,seed
+full,top_DE_Pearson,0.81,1
+no bracket,top_DE_Pearson,0.79,1
+additive shift,top_DE_Pearson,0.55,1
+descriptor-only,top_DE_Pearson,0.61,1
+block r=2,block_size_top_DE_Pearson,0.74,1
+block r=4,block_size_top_DE_Pearson,0.81,1
+block r=8,block_size_top_DE_Pearson,0.79,1

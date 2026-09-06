@@ -1,0 +1,12 @@
+{
+  "dataset": "SciPlex3",
+  "backbone": "checkpoints/sciplex3/backbone.pt",
+  "flow": "checkpoints/sciplex3/flow.pt",
+  "theta_dim": 2000,
+  "d_embed": 2410,
+  "reflow_K": 16,
+  "sigma": 0.3,
+  "sigma_inf": 0.1,
+  "n_steps": 40,
+  "da_mean": 69.36
+}

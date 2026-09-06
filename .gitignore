@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Downloaded weights and data (see README)
+/hub/
+/checkpoints/
+/data/
+/runs/
+results_*.json
+*.h5ad
+*.pt
+*.pkl
+
+# Generated figures
+figures/out/
+
+# Local
+.DS_Store
+.ipynb_checkpoints/
+*.zip

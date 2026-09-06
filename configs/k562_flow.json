@@ -1,0 +1,41 @@
+{
+  "paper_row": "K562 base flow (teacher for reflow)",
+  "dataset": "Replogle K562",
+  "run_dir": "runs/b200_k562_flow_bs2048_krrinit_mask_30k",
+  "backbone": "hf-assets/checkpoints/crispri_k562/OpPert_epoch700_periodic.pt",
+  "h5ad_rel": "datasets/OpPert/processed/replogle_k562/replogle_k562.h5ad",
+  "training_script": "scripts/train_flow.py",
+  "seed": 1,
+  "result_json": "experiments/results/fair_comparison/replogle_rotation_vs_direct__flow__b200_k562_flow_bs2048_krrinit_mask_30k_K128.json",
+  "teacher": null,
+  "teachers": null,
+  "launch_script": "runs/launch_tx_bch_combo.sh",
+  "checkpoint": {
+    "path": "runs/b200_k562_flow_bs2048_krrinit_mask_30k/flow_best.pt",
+    "size_mb": 46.5,
+    "files_in_dir": [
+      "config.json",
+      "flow_best.pt",
+      "flow_metrics.jsonl",
+      "krr_prior.pkl",
+      "reproduce.sh"
+    ]
+  },
+  "hparams_top": {
+    "_v_net_state_dict_present": true,
+    "theta_dim": 192,
+    "d_embed": 1824,
+    "d_hidden": 512,
+    "n_blocks": 4,
+    "sigma": 0.05,
+    "n_steps": 20,
+    "epoch": 28000,
+    "loss": 3.408003710949113e-05,
+    "pert_names": "<list len=1093 sample=['AAMP', 'AARS', 'AATF', 'ABCB7', 'ABCE1']>",
+    "mv_gene_names": "<list len=1085 sample=['AAMP', 'AARS', 'AATF', 'ABCB7', 'ABCE1']>",
+    "prior": "krr",
+    "krr_gamma": 0.01,
+    "krr_alpha": 1.0
+  },
+  "hparams_nested": {}
+}

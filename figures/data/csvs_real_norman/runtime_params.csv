@@ -1,0 +1,6 @@
+method,train_hours,inference_ms_per_pair,parameters_millions
+OpPert,2.4,8.0,4.2
+GEARS,4.5,12.0,8.0
+CPA,3.2,10.0,6.1
+linear,0.1,1.2,0.2
+additive,0.0,0.2,0.0

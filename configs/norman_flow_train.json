@@ -1,0 +1,41 @@
+{
+  "paper_row": "Norman seed 3",
+  "dataset": "CRISPRa Norman",
+  "run_dir": "runs/b200_norman_flow_e115_krrinit_s02_mask_30k_seed3",
+  "backbone": "hf-assets/checkpoints/crispra_norman_r16/OpPert_epoch100_periodic.pt",
+  "h5ad_rel": "datasets/OpPert/processed/CRISPRa-norman/norman2019_gears_split.h5ad",
+  "training_script": "scripts/train_flow.py",
+  "seed": 3,
+  "result_json": "experiments/results/fair_comparison/norman_rotation_vs_direct__flow__b200_norman_flow_e115_krrinit_s02_mask_30k_seed3.json",
+  "teacher": null,
+  "teachers": null,
+  "launch_script": null,
+  "checkpoint": {
+    "path": "runs/b200_norman_flow_e115_krrinit_s02_mask_30k_seed3/flow_best.pt",
+    "size_mb": 46.5,
+    "files_in_dir": [
+      "config.json",
+      "flow_best.pt",
+      "flow_metrics.jsonl",
+      "krr_prior.pkl",
+      "reproduce.sh"
+    ]
+  },
+  "hparams_top": {
+    "_v_net_state_dict_present": true,
+    "theta_dim": 192,
+    "d_embed": 1824,
+    "d_hidden": 512,
+    "n_blocks": 4,
+    "sigma": 0.02,
+    "n_steps": 20,
+    "epoch": 29500,
+    "loss": 0.0001756271449266933,
+    "pert_names": "<list len=108 sample=['1', '2', 'AHR', 'ARID1A', 'ARRDC3']>",
+    "mv_gene_names": "<list len=104 sample=['AHR', 'ARID1A', 'ARRDC3', 'ATL1', 'BAK1']>",
+    "prior": "krr",
+    "krr_gamma": 0.01,
+    "krr_alpha": 1.0
+  },
+  "hparams_nested": {}
+}

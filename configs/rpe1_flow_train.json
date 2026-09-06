@@ -1,0 +1,41 @@
+{
+  "paper_row": "RPE1 seed 1",
+  "dataset": "Replogle RPE1",
+  "run_dir": "runs/b200_rpe1_flow_block_krrinit_mask_30k_s1",
+  "backbone": "hf-assets/checkpoints/rpe1/OpPert_epoch350_periodic.pt",
+  "h5ad_rel": "datasets/OpPert/processed/replogle_rpe1/replogle_rpe1.h5ad",
+  "training_script": "scripts/train_flow.py",
+  "seed": 1,
+  "result_json": "experiments/results/fair_comparison/rpe1_rotation_vs_direct__flow__b200_rpe1_flow_block_krrinit_mask_30k_s1_rpe1_block_K128.json",
+  "teacher": null,
+  "teachers": null,
+  "launch_script": null,
+  "checkpoint": {
+    "path": "runs/b200_rpe1_flow_block_krrinit_mask_30k_s1/flow_best.pt",
+    "size_mb": 46.6,
+    "files_in_dir": [
+      "config.json",
+      "flow_best.pt",
+      "flow_metrics.jsonl",
+      "krr_prior.pkl",
+      "reproduce.sh"
+    ]
+  },
+  "hparams_top": {
+    "_v_net_state_dict_present": true,
+    "theta_dim": 192,
+    "d_embed": 1824,
+    "d_hidden": 512,
+    "n_blocks": 4,
+    "sigma": 0.05,
+    "n_steps": 20,
+    "epoch": 28500,
+    "loss": 5.099160883522321e-05,
+    "pert_names": "<list len=1544 sample=['AARS', 'AASDHPPT', 'AATF', 'ABCB10', 'ABCB7']>",
+    "mv_gene_names": "<list len=1524 sample=['AARS', 'AASDHPPT', 'AATF', 'ABCB10', 'ABCB7']>",
+    "prior": "krr",
+    "krr_gamma": 0.01,
+    "krr_alpha": 1.0
+  },
+  "hparams_nested": {}
+}

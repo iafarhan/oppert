@@ -1,0 +1,7 @@
+{
+  "source_dump": "fig2_geometry_data.npz",
+  "n_ood": 105,
+  "n_combos": 79,
+  "n_train_cells_in_projection": 2000,
+  "norm_ctrl": 47.535064697265625
+}

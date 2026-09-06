@@ -1,0 +1,7 @@
+pair,failure_type,error,epsilon,note
+MAPK1+KLF1,weak descriptor support,0.5324138611499953,0.5540625194543223,appendix example
+KLF1+FOS,high order sensitivity,0.5434759926620665,0.02183892401687315,inspect manually
+ELK1+CDKN1B,low measured signal,0.7115798423804007,0.8127464113729175,inspect manually
+JUN+KLF1,large generator norm,0.515753343554818,0.8395263602558672,low confidence
+SPI1+CEBPE,pathway ambiguous,0.7583969474666932,0.9299934310131585,candidate exclusion
+STAT3+KLF1,decoder extrapolation,0.8646571118637346,0.5276823307120317,appendix example
