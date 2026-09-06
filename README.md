@@ -4,6 +4,15 @@
 
 ### Rotation Operators for Single-Cell Perturbation Response Prediction
 
+[Ahmad Farhan](https://github.com/iafarhan)<sup>1</sup> &nbsp;·&nbsp; Suraj Verma<sup>1</sup> &nbsp;·&nbsp; Marianne Abemgnigni Njifon<sup>1</sup> &nbsp;·&nbsp; Mohammed Moustapha Anwar<sup>2</sup> &nbsp;·&nbsp; Maria Angeles Juanes<sup>2</sup> &nbsp;·&nbsp; Annalisa Occhipinti<sup>1,3,4</sup> &nbsp;·&nbsp; Claudio Angione<sup>1,3,4</sup>
+
+<sup>1</sup> School of Computing, Engineering and Digital Technologies, Teesside University, Middlesbrough, UK
+<br><sup>2</sup> Cytoskeletal Dynamics in Cell Migration and Cancer Invasion, Prince Felipe Research Center Foundation (CIPF), Valencia, Spain
+<br><sup>3</sup> Centre for Digital Innovation, Teesside University, Middlesbrough, UK
+<br><sup>4</sup> National Horizons Centre, Teesside University, Darlington, UK
+
+<br>
+
 <!-- TODO: replace the arXiv badge target with the arXiv identifier once the preprint is live -->
 [![arXiv](https://img.shields.io/badge/arXiv-preprint-b31b1b.svg)](#)
 [![Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model%20weights-ffd21e.svg)](https://huggingface.co/Angione-Lab/OpPert)
@@ -148,7 +157,7 @@ See `--help` on any script for all options.
 ```bibtex
 @article{farhan2026oppert,
   title   = {Rotation Operators for Single-Cell Perturbation Response Prediction},
-  author  = {Farhan, Ahmad and Angione, Claudio},
+  author  = {Farhan, Ahmad and Verma, Suraj and Abemgnigni Njifon, Marianne and Anwar, Mohammed Moustapha and Juanes, Maria Angeles and Occhipinti, Annalisa and Angione, Claudio},
   journal = {arXiv preprint},
   year    = {2026}
 }
